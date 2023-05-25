@@ -490,11 +490,6 @@ progress {
   display: none !important;
 }
 
-.my-custom-class {
-  width: 200px;
-  height: 50px;
-}
-
 .lead {
   font-size: 1.25rem;
   font-weight: 300;
@@ -11205,8 +11200,4 @@ body {
 
 .footer {
   padding: 5rem 0;
-}
-
-.text-light-gray {
-  color: #d9d9d9;
 }
