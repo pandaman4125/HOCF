@@ -27,8 +27,8 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-light.fixed-top
             .container.px-4.px-lg-5
-                a.navbar-brand(href='#page-top') House of Champions Foundation
-                button.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+                a.navbar-brand.text-white(href='#page-top') House of Champions Foundation
+                button.text-white.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars
                 #navbarResponsive.collapse.navbar-collapse
@@ -38,7 +38,7 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='#founder') The Founder
                         li.nav-item
-                            a.nav-link(href='#signup') Contact
+                            a.nav-link(href='#signup') Help Us
 
 
         // Masthead
@@ -50,59 +50,60 @@ html(lang='en')
                         h2.text-white-50.mx-auto.mt-2.mb-5 Unleashing Inner Champions
 
         // Projects
-        section#projects.projects-section.bg-light
+        section#projects.projects-section(style="background-color: #1f2021;")
             .container.px-4.px-lg-5
-                h1.text-center.mb-3 Our Values
+                h1.text-center.mb-3.text-white Our Values
+                hr.mb-2(style="border: none; border-top: 2px solid #fff;")
                 // Featured Project Row
                 .row.gx-0.mb-4.mb-lg-5.align-items-center
                     .col-xl-8.col-lg-7
-                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/bg-masthead.jpg', alt='...')
+                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/russell3.png', alt='...')
                     .col-xl-4.col-lg-5
-                        .featured-text.text-center.text-lg-left
-                            h4 Achievement
-                            p.text-black-50.mb-0
+                        .text-center.text-lg-left.text-white
+                            h4.display-5 Achievement
+                            p.lead.text-white-50.mb-0
                                 | At the House of Champions Foundation, we celebrate the achievements of those who have turned adversity into victory. Our founder, Russell Allmandinger, is a testament to this, transforming physical challenges into a platform for inspiring others. Join us as we champion the achievements of the amputee and disabled communities.
                 // Project One Row
                 .row.gx-0.mb-5.mb-lg-0.justify-content-center
                     .col-lg-6
-                        img.img-fluid(src='assets/img/demo-image-01.jpg', alt='...')
+                        img.img-fluid(src='assets/img/russell1.jpg', alt='...')
                     .col-lg-6
                         .bg-black.text-center.h-100.project
                             .d-flex.h-100
                                 .project-text.w-100.my-auto.text-center.text-lg-left
                                     h4.text-white Strength
-                                    p.mb-0.text-white-50
-                                        | Strength is more than physical prowess; it's the resilience to face life's challenges head-on. At the House of Champions Foundation, we foster this strength in the amputee and disabled communities. Through our work, we aim to inspire and empower individuals to discover their inner strength and become their best selves.
+                                    p.lead.mb-0.text-white-50
+                                        | Strength is more than physical prowess; it's the resilience to face life's challenges head-on. At the HOCF, we foster this strength in the amputee and disabled communities. Through our work, we aim to inspire and empower individuals to discover their inner strength and become their best selves.
                 // Project Two Row
                 .row.gx-0.justify-content-center
                     .col-lg-6
-                        img.img-fluid(src='assets/img/demo-image-02.jpg', alt='...')
+                        img.img-fluid(src='assets/img/russell2.jpg', alt='...')
                     .col-lg-6.order-lg-first
                         .bg-black.text-center.h-100.project
                             .d-flex.h-100
                                 .project-text.w-100.my-auto.text-center.text-lg-right
-                                    h4.text-white Triumph
-                                    p.mb-0.text-white-50
-                                        | Triumph over adversity is at the heart of our mission. The House of Champions Foundation is a beacon of hope, demonstrating that physical limitations do not define one's potential. We stand as a testament to the triumph of the human spirit, empowering individuals to overcome their challenges and reach new heights.
+                                    h4.text-white.display-7 Triumph
+                                    p.mb-0.text-white-50.lead
+                                        | Triumph over adversity is at the heart of our mission. The HOCF is a beacon of hope, demonstrating that physical limitations do not define one's potential. We stand as a testament to the triumph of the human spirit, empowering individuals to overcome their challenges and reach new heights.
         // Founder
         section#founder.founder-section.text-center.p-4.bg-black
             .container.px-4.px-lg-5
                     .row.gx-4.gx-lg-5.justify-content-center
                         .col-lg-8
                             h2.text-white.mb-4 The Founder
-                            p.text-light-gray
+                            p.text-white-50
                                 | Born in 1985, Russell Allmandinger faced extraordinary adversity from day one. He was born with one of the most severe cases of bilateral club feet, requiring his first surgery at just three days old. The surgeries to fix his legs continued until he was three years old, and he had to wear braces on his legs until he was seven. Yet, this early physical challenge didn't hold Russell back from leading an active lifestyle. Baseball, basketball, football, and powerlifting became his arenas, where he learned the value of hard work and the will to push through pain. 
-                            p.text-light-gray
+                            p.text-white-50
                                 | When Russell was 15, his mother was diagnosed with stage 4 terminal lung cancer. This event shifted his role in the family as he took on the responsibilities of a caregiver for his younger brother and ailing mother for the next six years. His family situation was further complicated by his father's imprisonment, leaving them homeless for three years. When he was on the verge of turning 21, his mother passed away. These experiences imbued in Russell a profound understanding of the meaning of resilience and overcoming adversity.
-                            p.text-light-gray   
+                            p.text-white-50 
                                 | In his life so far, Russell has undergone over 30 surgeries and been diagnosed with Complex Regional Pain Syndrome, Neuropathy, degenerative disc disorder, and spinal stenosis. Seven years ago, he made the brave decision to amputate his left club foot, with the right foot following suit. The following seven years, encompassing 15 surgeries including the amputations, brought him face to face with extreme burnout. This burnout, coupled with the intense pain and distress, led him to medications for the first time in his life.
-                            p.text-light-gray 
+                            p.text-white-50
                                 | During the Covid pandemic, Russell faced the most challenging two years of his life. He was prescribed seven different types of medications, including some of the strongest pain meds. These meds plunged him into severe depression and increased anxiety, pushing him to the edge of suicide. This was the darkest period in Russell's life.
-                            p.text-light-gray 
+                            p.text-white-50 
                                 | In 2021, however, Russell decided to break free from the shackles of medication and embrace a new path to healing: CrossFit. Returning to his roots of grinding and working hard, he discovered a new sense of purpose and began rebuilding his life.
-                            p.text-light-gray  
+                            p.text-white-50 
                                 | Presently, Russell is a competitive CrossFit athlete, making his debut in the CrossFit Open in 2021 where he finished 31st in the world in the Neuromuscular division. His passion for competition fuels his resolve to push his limits each day, regardless of how challenging it may seem.
-                            p.text-light-gray  
+                            p.text-white-50 
                                 | In addition to his athletic pursuits, Russell has also founded the House of Champions Foundation (HOCF). The HOCF's mission is to serve the amputee and disabled communities, inspiring them to discover their inner champion - physically, mentally, emotionally, and financially. The HOCF is committed to aiding these communities on their journey to become their best selves, proving that adversity can be turned into strength, just as Russell himself has demonstrated throughout his life. 
                     img(src='assets/img/b-c-Logo.jpg', alt='...')
         // Signup
@@ -110,56 +111,9 @@ html(lang='en')
             .container.px-4.px-lg-5
                 .row.gx-4.gx-lg-5
                     .col-md-10.col-lg-8.mx-auto.text-center
-                        i.far.fa-paper-plane.fa-2x.mb-2.text-white
-                        h2.text-white.mb-5 Subscribe to receive updates!
-
-                        // * * * * * * * * * * * * * * *
-                        // * * SB Forms Contact Form * *
-                        // * * * * * * * * * * * * * * *
-
-                        // This form is pre-integrated with SB Forms.
-                        // To make this form functional, sign up at
-                        // https://startbootstrap.com/solution/contact-forms
-                        // to get an API token!
-                        
-                        form#contactForm.form-signup(data-sb-form-api-token='API_TOKEN')
-
-                            // Email address input
-
-                            .row.input-group-newsletter
-                                .col
-                                    input#emailAddress.form-control(
-                                        type='email',
-                                        placeholder='Enter email address...',
-                                        aria-label='Enter email address...',
-                                        data-sb-validations='required,email'
-                                    )
-                                .col-auto
-                                    button#submitButton.btn.btn-primary.disabled(type='submit') Notify Me!
-                            .invalid-feedback.mt-2(data-sb-feedback='emailAddress:required')
-                                | An email is required.
-                            .invalid-feedback.mt-2(data-sb-feedback='emailAddress:email')
-                                | Email is not valid.
-
-                            // Submit success message
-                            //
-                            // This is what your users will see when the form
-                            // has successfully submitted
-
-                            #submitSuccessMessage.d-none
-                                .text-center.mb-3.mt-2.text-white
-                                    .fw-bolder Form submission successful!
-                                    | To activate this form, sign up at
-                                    br
-                                    a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
-
-                            // Submit error message
-                            //
-                            // This is what your users will see when there is
-                            // an error submitting the form
-
-                            #submitErrorMessage.d-none
-                                .text-center.text-danger.mb-3.mt-2 Error sending message!
+                        i.fa-regular.fa-credit-card.fa-2xl.mb-2(style="color: #ffffff;")
+                        h2.text-white.mb-5 Donate to help us unleash more champions!
+                        a.button.btn.btn-primary.clickable(href='https://www.zeffy.com/en-US/donation-form/bca5b80f-a3b2-4746-baaa-55e34b25840f') Donate!
 
         // Contact
         section.contact-section.bg-black
@@ -168,33 +122,26 @@ html(lang='en')
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
-                                i.fas.fa-map-marked-alt.text-primary.mb-2
-                                h4.text-uppercase.m-0 Address
-                                hr.my-4.mx-auto
-                                .small.text-black-50 4923 Market Street, Orlando FL
-                    .col-md-4.mb-3.mb-md-0
-                        .card.py-4.h-100
-                            .card-body.text-center
                                 i.fas.fa-envelope.text-primary.mb-2
                                 h4.text-uppercase.m-0 Email
                                 hr.my-4.mx-auto
                                 .small.text-black-50
-                                    a(href='#!') hello@yourdomain.com
+                                    a(href='mailto: Russell8989@gmail.com')  Russell8989@gmail.com
+                    .col-md-4.mb-3.mb-md-0
+                        .card.py-4.h-100
+                            .card-body.text-center
+                                i.fab.fa-instagram.text-primary.mb-2
+                                h4.text-uppercase.m-0 Instagram
+                                hr.my-4.mx-auto
+                                .small.text-black-50
+                                    a(href='https://www.instagram.com/houseofchampionsfoundation/')  House of Champions
                     .col-md-4.mb-3.mb-md-0
                         .card.py-4.h-100
                             .card-body.text-center
                                 i.fas.fa-mobile-alt.text-primary.mb-2
                                 h4.text-uppercase.m-0 Phone
                                 hr.my-4.mx-auto
-                                .small.text-black-50 +1 (555) 902-8832
-                .social.d-flex.justify-content-center
-                    a.mx-2(href='#!')
-                        i.fab.fa-twitter
-                    a.mx-2(href='#!')
-                        i.fab.fa-facebook-f
-                    a.mx-2(href='#!')
-                        i.fab.fa-github
-
+                                .small.text-black-50 +1 702-308-2669
         // Footer
         footer.footer.bg-black.small.text-center.text-white-50
             .container.px-4.px-lg-5

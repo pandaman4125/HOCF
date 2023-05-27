@@ -4,7 +4,7 @@
 
 #mainNav {
     min-height: 3.5rem;
-    background-color: $white;
+    background-color: rgba(18, 18, 18);
 
     .navbar-toggler {
         font-size: 80%;
@@ -66,14 +66,14 @@
         }
 
         &.navbar-shrink {
-            background-color: $white;
+            background-color: rgba(18, 18, 18);
 
             .navbar-brand {
                 color: $black;
             }
 
             .nav-link {
-                color: $black;
+                color: $white;
                 padding: 1.5rem 1.5rem 1.25rem;
                 border-bottom: 0.25rem solid transparent;
 
