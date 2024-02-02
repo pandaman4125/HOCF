@@ -4,6 +4,10 @@
 
 .projects-section {
     padding: 10rem 0;
+    background: linear-gradient(to bottom,
+        #{fade-out($black, 0)} 11%,
+        #{fade-out($black, 0.5)} 0%,
+        $black 100%);
 
     .featured-text {
         padding: 2rem;
