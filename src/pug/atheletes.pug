@@ -34,7 +34,7 @@ html(lang='en')
                 #navbarResponsive.collapse.navbar-collapse
                     ul.navbar-nav.ms-auto
                         li.nav-item
-                            a.nav-link(href='atheletes.html') Atheletes
+                            a.nav-link(href='atheletes.html#athletes') Atheletes
                         li.nav-item
                             a.nav-link(href='index.html#signup') Help Us
                         li.nav-item.dropdown
@@ -58,6 +58,67 @@ html(lang='en')
                         h1.mx-auto.my-0.text-uppercase Athletes
                         h2.text-white-50.mx-auto.mt-2.mb-5 Unleashing Inner Champions
 
+        section#athletes.projects-section.bg-black
+            .container.px-4.px-lg-5
+                h2 What is this?
+                p
+                    | Here, we celebrate triumphs over adversity and highlight the incredible achievements of individuals who have defied limitations to pursue their sporting passions. Through compelling stories and captivating images, we share the transformative impact of HOCF's assistance in enabling these athletes to reach their full potential. From overcoming physical challenges to conquering personal barriers, each athlete's narrative embodies resilience, determination, and the power of unwavering support. Explore these empowering tales and witness firsthand the profound difference made possible through the invaluable work of HOCF in championing inclusivity and accessibility in sports for all.
+                br
+                // Athelete One Main
+                div#accordionExample.accordion
+                    .accordion-item
+                        // h2.accordion-header
+                        button.accordion-button.collapsed(type='button', data-bs-toggle='collapse', data-bs-target='#collapseOne', aria-expanded='false', aria-controls='collapseOne')
+                            h2.accordion-header.text-center Lauren
+                        #collapseOne.accordion-collapse.collapse.hide
+                            .accordion-body                
+                                .row.gx-0.mb-4.mb-lg-5.align-items-center
+                                    .col-xl-8.col-lg-5.text-center
+                                        img.img-fluid.mb-3.mb-lg-0(src='assets/img/Placeholder.png', alt='...')
+                                    .col-xl-4.col-lg-5.text-center
+                                        .text-lg-left.text-white
+                                            h4.display-5 Lauren
+                                            p.lead.text-white-50.mb-0
+                                                | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris cursus mattis molestie a. Ut pharetra sit amet aliquam id. Eget dolor morbi non arcu risus quis varius quam quisque. Quam quisque id diam vel quam. Mauris rhoncus aenean vel elit. Elit pellentesque habitant morbi tristique senectus et netus et. Tellus id interdum velit laoreet. Non tellus orci ac auctor augue mauris. Enim sit amet venenatis urna.
+                                // Athelete One Row
+                                .row.gx-0.mb-5.mb-lg-0.justify-content-center
+                                    .col-lg-6.text-center
+                                        img.img-fluid(src='assets/img/placeholder1.png', alt='...')
+                                    .col-lg-6
+                                        .bg-black.text-center.h-100.project
+                                            .d-flex.h-100
+                                                .project-text.w-100.my-auto.text-center.text-lg-left
+                                                    h4.text-white Her Story
+                                                    p.lead.mb-0.text-white-50
+                                                        | Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Mauris cursus mattis molestie a. Ut pharetra sit amet aliquam id. Eget dolor morbi non arcu risus quis varius quam quisque. Quam quisque id diam vel quam. Mauris rhoncus aenean vel elit. Elit pellentesque habitant morbi tristique senectus et netus et. Tellus id interdum velit laoreet. Non tellus orci ac auctor augue mauris. Enim sit amet venenatis urna.
+                    hr
+                    .accordion-item
+                        // h2.accordion-header
+                        button.accordion-button.collapsed(type='button', data-bs-toggle='collapse', data-bs-target='#collapseTwo', aria-expanded='false', aria-controls='collapseOne')
+                            h2.accordion-header.text-center Russell Allmandinger
+                        #collapseTwo.accordion-collapse.collapse
+                            .accordion-body        
+                                // Athlete Two Main
+                                .row.gx-0.mb-4.mb-lg-5.align-items-center
+                                    .col-xl-4.col-lg-5
+                                        .text-center.text-lg-left.text-white
+                                            h4.display-5 Russell Allmandinger
+                                            p.lead.text-white-50.mb-0
+                                                | At the House of Champions Foundation, we celebrate the achievements of those who have turned adversity into victory. Our founder, Russell Allmandinger, is a testament to this, transforming physical challenges into a platform for inspiring others. Join us as we champion the achievements of the amputee and disabled communities.
+                                    .col-xl-8.col-lg-7
+                                        img.img-fluid.float-end.mb-3.mb-lg-0(src='assets/img/russell3.png', alt='...')
+
+                                // Athelete Two Row
+                                .row.gx-0.justify-content-center
+                                    .col-lg-6
+                                        img.img-fluid(src='assets/img/russell2.jpg', alt='...')
+                                    .col-lg-6.order-lg-first
+                                        .bg-black.text-center.h-100.project
+                                            .d-flex.h-100
+                                                .project-text.w-100.my-auto.text-center.text-lg-right
+                                                    h4.text-white.display-7 His Story
+                                                    p.mb-0.text-white-50.lead
+                                                        | Triumph over adversity is at the heart of our mission. The HOCF is a beacon of hope, demonstrating that physical limitations do not define one's potential. We stand as a testament to the triumph of the human spirit, empowering individuals to overcome their challenges and reach new heights.
 
         // Signup
         section#signup.signup-section
