@@ -38,7 +38,7 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='index.html#signup') Help Us
                         li.nav-item.dropdown
-                            a.nav-link.dropdown-toggle(href="about.html", role="button", data-bs-toggle="dropdown", aria-expanded="false")
+                            a.nav-link.dropdown-toggle(href="about.html", role="button", data-bs-toggle="dropdown", data-bs-target='#aboutDropdown', aria-expanded="false")
                                 | About Us        
                             ul.dropdown-menu
                                 li.dropdown-item
@@ -102,8 +102,9 @@ html(lang='en')
                             p.lead.text-white-50
                                 | Member at large
         // Projects
-        section#projects2.projects-section
-            .container.px-4.px-lg-5
+        section#projects2.projects2-section
+            .container.px-4.px-lg-5.bg-black.rounded
+                br
                 h1.text-center.mb-3.text-white Our Values
                 hr.mb-2(style="border: none; border-top: 2px solid #fff;")
                 // Featured Project Row
@@ -199,7 +200,7 @@ html(lang='en')
         // Footer
         footer.footer.bg-black.small.text-center.text-white-50
             .container.px-4.px-lg-5
-                | Copyright &copy; Your Website 2023
+                | Inspire Others
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')

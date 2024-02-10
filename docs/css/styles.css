@@ -11080,7 +11080,7 @@ body {
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 0.8rem;
-  background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0));
+  background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
           background-clip: text;
@@ -11121,7 +11121,7 @@ body {
 
 .projects-section {
   padding: 10rem 0;
-  background: linear-gradient(to bottom, black 11%, rgba(0, 0, 0, 0.5) 0%, #000 100%);
+  background: linear-gradient(to bottom, #000000 30%, #868686);
 }
 .projects-section .featured-text {
   padding: 2rem;
@@ -11138,6 +11138,29 @@ body {
 }
 @media (min-width: 992px) {
   .projects-section .project-text {
+    padding: 5rem;
+  }
+}
+
+.projects2-section {
+  padding: 10rem 0;
+  background: linear-gradient(to bottom, #868686, #000000 90%);
+}
+.projects2-section .featured-text {
+  padding: 2rem;
+}
+@media (min-width: 992px) {
+  .projects2-section .featured-text {
+    padding: 0 0 0 2rem;
+    border-left: 0.5rem solid #64a19d;
+  }
+}
+.projects2-section .project-text {
+  padding: 3rem;
+  font-size: 90%;
+}
+@media (min-width: 992px) {
+  .projects2-section .project-text {
     padding: 5rem;
   }
 }

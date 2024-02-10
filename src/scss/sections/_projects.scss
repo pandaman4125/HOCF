@@ -4,10 +4,32 @@
 
 .projects-section {
     padding: 10rem 0;
-    background: linear-gradient(to bottom,
-        #{fade-out($black, 0)} 11%,
-        #{fade-out($black, 0.5)} 0%,
-        $black 100%);
+    background: linear-gradient(to bottom, #000000 30%, #868686);
+
+
+    .featured-text {
+        padding: 2rem;
+
+        @include media-breakpoint-up(lg) {
+            padding: 0 0 0 2rem;
+            border-left: 0.5rem solid $primary;
+        }
+    }
+
+    .project-text {
+        padding: 3rem;
+        font-size: 90%;
+
+        @include media-breakpoint-up(lg) {
+            padding: 5rem;
+        }
+    }
+}
+
+.projects2-section {
+    padding: 10rem 0;
+    background: linear-gradient(to bottom, #868686, #000000 90%);
+
 
     .featured-text {
         padding: 2rem;
