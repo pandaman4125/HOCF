@@ -27,7 +27,7 @@ html(lang='en')
         // Navigation
         nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
             .container.px-4.px-lg-5
-                a.navbar-brand.text-white(href='#page-top') House of Champions Foundation
+                a.navbar-brand.text-white(href='index.html#page-top') House of Champions Foundation
                 button.text-white.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
                     | Menu
                     i.fas.fa-bars
@@ -37,7 +37,7 @@ html(lang='en')
                             a.nav-link(href='athletes.html') Athletes
                         li.nav-item
                             a.nav-link(href='#signup') Help Us
-                        li#aboutDropdown.nav-item.dropdown
+                        li.nav-item.dropdown
                             a.nav-link.dropdown-toggle(href="#aboutDropdown", role="button", data-bs-toggle="dropdown", data-bs-target='#aboutDropdown', aria-expanded="false")
                                 | About Us        
                             ul.dropdown-menu
@@ -50,24 +50,14 @@ html(lang='en')
                         li.nav-item
                             a.nav-link(href='store.html') Store
 
+
+
         // Masthead
-        header.masthead
-            .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
-                .d-flex.justify-content-center
-                    .text-center
-                        h1.mx-auto.my-0.text-uppercase House of Champions
-                        h2.text-white-50.mx-auto.mt-2.mb-5 Unleashing Inner Champions
-
-
-        section#mission.projects-section.bg-black
+        section.signup-section
             .container.px-4.px-lg-5
-                h1.mx-auto.text-white Mission Statement
-                hr
-                p.text-white-50
-                    | HOCF was created to serve the amputee and disabled communities and inspire them to find their inner champion physically, mentally, emotionally, and financially and help them on their journey to be their best self. Our mission focuses on helping motivated members of the amputee and disabled communities receive proper medical equipment and support they need to start and achieve the optimum fitness level through coaching, education, movement, and nutritional guidance.
-                .text-center
-                    img.rounded.mx-auto(src='assets/img/b-c-Logo.jpg', alt='...')
- 
+                .row.gx-4.gx-lg-5
+                    .col-md-16.col-lg-16.text-center
+                        embed(src="https://tucker-pop-up.printify.me/products", style="width: 100%; height: 50vw")
         // Signup
         section#signup.signup-section
             .container.px-4.px-lg-5
