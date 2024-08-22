@@ -1,32 +1,15 @@
-# [Start Bootstrap - Grayscale](https://startbootstrap.com/theme/grayscale/)
-
-[Grayscale](https://startbootstrap.com/theme/grayscale/) is a multipurpose, one page HTML theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
-
-## Preview
-
-[![Grayscale Preview](https://assets.startbootstrap.com/img/screenshots/themes/grayscale.png)](https://startbootstrap.github.io/startbootstrap-grayscale/)
-
-**[View Live Preview](https://startbootstrap.github.io/startbootstrap-grayscale/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-grayscale/master/LICENSE)
-[![npm version](https://img.shields.io/npm/v/startbootstrap-grayscale.svg)](https://www.npmjs.com/package/startbootstrap-grayscale)
-
-## Download and Installation
-
-To begin using this template, choose one of the following options to get started:
-
-- [Download the latest release on Start Bootstrap](https://startbootstrap.com/theme/grayscale/)
-- Install using npm: `npm i startbootstrap-grayscale`
-- Clone the repo: `git clone https://github.com/StartBootstrap/startbootstrap-grayscale.git`
-- [Fork, Clone, or Download on GitHub](https://github.com/StartBootstrap/startbootstrap-grayscale)
+# HOCF Website
 
 ## Usage
 
 ### Basic Usage
 
-After downloading, simply edit the HTML and CSS files included with `docs` directory. These are the only files you need to worry about, you can ignore everything else! To preview the changes you make to the code, you can open the `index.html` file in your web browser.
+```bash
+npm i
+npm start
+# make changes
+git push
+```
 
 ### Advanced Usage
 
