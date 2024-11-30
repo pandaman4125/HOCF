@@ -8,7 +8,7 @@ html(lang='en')
         meta(name='description', content='')
         meta(name='author', content='')
 
-        title HOCF
+        title Athlete Registration - HOCF
 
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
 
@@ -49,15 +49,21 @@ html(lang='en')
                                     a.dropdown-item(href='about.html#founder') The Founder
                         li.nav-item
                             a.nav-link(href='store.html') Store
+                        li.nav-item
+                            a.nav-link(href='register.html') Apply
 
-
-
-        // Masthead
-        section.signup-section
+        // Registration Form
+        section.registration-section
             .container.px-4.px-lg-5
-                .row.gx-4.gx-lg-5
-                    .col-md-16.col-lg-16.text-center
-                        embed(src="https://hoc-foundation.printify.me/products", style="width: 100%; height: 300vw")
+                .row.gx-4.gx-lg-5.justify-content-center
+                    .col-lg-8
+                        h2.text-center.text-white.mb-4 Athlete Registration
+                        iframe(src="https://docs.google.com/forms/d/e/1FAIpQLScCGsulWW5hVF401a2GXlDyZpciJ3Ib8ZIUg-SZwYlccnovgg/viewform?embedded=true", width="640", height="1605", frameborder="0", marginheight="0", marginwidth="0") Loading…
+
+        // Footer
+        footer.footer.bg-black.small.text-center.text-white-50
+            .container.px-4.px-lg-5
+                | Inspire Others
 
         // Bootstrap core JS
         script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
