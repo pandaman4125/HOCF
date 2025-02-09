@@ -1,3 +1,4 @@
+// filepath: /home/jgroom/src/HOCF/src/scss/components/_navbar.scss
 // 
 // Navbar
 // 
@@ -24,6 +25,11 @@
     }
 
     .navbar-nav {
+        .nav-link {
+            &.adaptive-wod {
+                color: #ec008c !important;
+            }
+        }
         .nav-item {
             &:hover {
                 color: fade($white, 80%);
@@ -35,6 +41,11 @@
             &:focus {
                 outline: none;
                 background-color: transparent;
+            }
+            &.adaptive-wod {
+                .nav-link {
+                    color: #ec008c !important;
+                }
             }
         }
     }

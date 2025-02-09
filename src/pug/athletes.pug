@@ -25,33 +25,7 @@ html(lang='en')
     body#page-top
 
         // Navigation
-        nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
-            .container.px-4.px-lg-5
-                a.navbar-brand.text-white(href='index.html#page-top') House of Champions Foundation
-                button.text-white.navbar-toggler.navbar-toggler-right(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
-                    | Menu
-                    i.fas.fa-bars
-                #navbarResponsive.collapse.navbar-collapse
-                    ul.navbar-nav.ms-auto
-                        li.nav-item
-                            a.nav-link(href='athletes.html#athletes') Athletes
-                        li.nav-item
-                            a.nav-link(href='#signup') Help Us
-                        li.nav-item.dropdown
-                            a.nav-link.dropdown-toggle(href="#aboutDropdown", role="button", data-bs-toggle="dropdown", aria-expanded="false")
-                                | About Us
-                            ul.dropdown-menu
-                                li.dropdown-item
-                                    a.dropdown-item(href='about.html#projects') Board of Directors
-                                li.dropdown-item
-                                    a.dropdown-item(href='about.html#projects2') Values
-                                li.dropdown-item
-                                    a.dropdown-item(href='about.html#founder') The Founder
-                        li.nav-item
-                            a.nav-link(href='store.html') Store
-                        //- li.nav-item
-                        //-     a.nav-link(href='register.html') Apply
-
+        include components/navbar.pug
 
         // Masthead
         header.masthead
@@ -74,7 +48,7 @@ html(lang='en')
                         button.accordion-button.collapsed(type='button', data-bs-toggle='collapse', data-bs-target='#collapseOne', aria-expanded='false', aria-controls='collapseOne')
                             h2.accordion-header.text-center.text-white Lauren Farhat
                         #collapseOne.accordion-collapse.collapse
-                            .accordion-body                                    
+                            .accordion-body
                                 .row.gx-0.mb-4.mb-lg-5.align-items-center
                                     .col-xl-8.col-lg-5.text-center
                                         img.img-fluid.mb-3.mb-lg-0(src='assets/img/Lauren.png', alt='...')

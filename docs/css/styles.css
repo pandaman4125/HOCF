@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /*!
 * Start Bootstrap - Grayscale v7.0.6 (https://startbootstrap.com/theme/grayscale)
-* Copyright 2013-2024 Start Bootstrap
+* Copyright 2013-2025 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-grayscale/blob/master/LICENSE)
 */
 /*!
@@ -10997,6 +10997,9 @@ body {
   font-weight: 700;
   padding: 0.9rem 0;
 }
+#mainNav .navbar-nav .nav-link.adaptive-wod {
+  color: #ec008c !important;
+}
 #mainNav .navbar-nav .nav-item:hover {
   color: fade(#fff, 80%);
   outline: none;
@@ -11005,6 +11008,9 @@ body {
 #mainNav .navbar-nav .nav-item:active, #mainNav .navbar-nav .nav-item:focus {
   outline: none;
   background-color: transparent;
+}
+#mainNav .navbar-nav .nav-item.adaptive-wod .nav-link {
+  color: #ec008c !important;
 }
 @media (min-width: 992px) {
   #mainNav {
