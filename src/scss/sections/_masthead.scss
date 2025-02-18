@@ -1,6 +1,6 @@
-// 
+//
 // Masthead
-// 
+//
 
 .masthead {
     position: relative;
@@ -33,6 +33,11 @@
         font-size: 1rem;
     }
 
+    h3 {
+        max-width: 20rem;
+        font-size: 1.5rem;
+    }
+
     @include media-breakpoint-up(md) {
         h1 {
             font-size: 4rem;
@@ -54,5 +59,11 @@
             max-width: 30rem;
             font-size: 1.25rem;
         }
+
+        h3 {
+            max-width: 40rem;
+            font-size: 2.0rem;
+        }
+
     }
 }

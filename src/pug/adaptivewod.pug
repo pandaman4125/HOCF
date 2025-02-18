@@ -1,90 +1,44 @@
 doctype html
 html(lang='en')
 
-    head
+  head
 
-        meta(charset='utf-8')
-        meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1, shrink-to-fit=no')
+    meta(name='description' content='Adaptive WoD 2025 schedule and information for House of Champions Foundation. Find out more about our events and register your local gym.')
+    meta(name='author' content='House of Champions Foundation')
 
-        title HOCF
+    title AdaptiveWOD
 
-        link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
+    link(rel='icon' type='image/x-icon' href='assets/favicon.ico')
 
-        // Font Awesome icons (free version)
-        script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js', crossorigin='anonymous')
+    // Font Awesome icons (free version)
+    script(src='https://use.fontawesome.com/releases/v6.3.0/js/all.js' crossorigin='anonymous')
 
-        // Google fonts
-        link(href='https://fonts.googleapis.com/css?family=Varela+Round', rel='stylesheet')
-        link(href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i', rel='stylesheet')
+    // Google fonts
+    link(href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet')
+    link(href='https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i' rel='stylesheet')
 
-        // Core theme CSS (includes Bootstrap)
-        link(href='css/styles.css', rel='stylesheet')
+    // Core theme CSS (includes Bootstrap)
+    link(href='css/styles.css' rel='stylesheet')
 
-    body#page-top
+  body#page-top
 
-        // Navigation
-        include components/navbar.pug
+    // Navigation
+    include components/navbar.pug
 
-        // Masthead
-        header.masthead
-            .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
-                .d-flex.justify-content-center
-                    .text-center
-                        h1.mx-auto.my-0.text-uppercase Coming SOON!
-                        h2.text-white-50.mx-auto.mt-2.mb-5 Adaptive WoD 2025
+    // Masthead
+    header.masthead
+      .container.px-4.px-lg-5.d-flex.h-100.align-items-center.justify-content-center
+        .d-flex
+          .text-center
+            h1.mx-auto Coming Soon!!
+            h3.mx-auto(style="color: #ec008c;") Adaptive WoD 2025
+            // Container for schedule data
+            #schedule-container.bg-black.text-white
 
-        // Signup
-        section#signup.signup-section
-            .container.px-4.px-lg-5
-                .row.gx-4.gx-lg-5
-                    .col-md-10.col-lg-8.mx-auto.text-center
-                        i.fa-regular.fa-credit-card.fa-2xl.mb-2(style="color: #ffffff;")
-                        h2.text-white.mb-5 Donate to help us unleash more champions!
-                        a.button.btn.btn-primary.clickable(href='https://www.zeffy.com/en-US/donation-form/bca5b80f-a3b2-4746-baaa-55e34b25840f') Donate!
+    // Bootstrap core JS
+    script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
 
-        // Contact
-        section.contact-section.bg-black
-            .container.px-4.px-lg-5
-                .row.gx-4.gx-lg-5
-                    .col-md-4.mb-3.mb-md-0
-                        .card.py-4.h-100
-                            .card-body.text-center
-                                i.fas.fa-envelope.text-primary.mb-2
-                                h4.text-uppercase.m-0 Email
-                                hr.my-4.mx-auto
-                                .small.text-black-50
-                                    a(href='mailto: rallmandinger@hocfoundation.org')  rallmandinger@hocfoundation.org
-                    .col-md-4.mb-3.mb-md-0
-                        .card.py-4.h-100
-                            .card-body.text-center
-                                i.fab.fa-instagram.text-primary.mb-2
-                                h4.text-uppercase.m-0 Instagram
-                                hr.my-4.mx-auto
-                                .small.text-black-50
-                                    a(href='https://www.instagram.com/houseofchampionsfoundation/')  House of Champions
-                    .col-md-4.mb-3.mb-md-0
-                        .card.py-4.h-100
-                            .card-body.text-center
-                                i.fas.fa-mobile-alt.text-primary.mb-2
-                                h4.text-uppercase.m-0 Phone
-                                hr.my-4.mx-auto
-                                .small.text-black-50 +1 702-308-2669
-        // Footer
-        footer.footer.bg-black.small.text-center.text-white-50
-            .container.px-4.px-lg-5
-                | Inspire Others
-
-        // Bootstrap core JS
-        script(src='https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js')
-
-        // Core theme JS
-        script(src='js/scripts.js')
-
-        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-        // * *                               SB Forms JS                               * *
-        // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
-        // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
-
-        script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
+    // Core theme JS
+    script(src='js/adaptivewod.js')
