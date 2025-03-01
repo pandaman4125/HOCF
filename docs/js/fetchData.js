@@ -20,6 +20,8 @@ async function fetchFileNames() {
 function convertToViewLink(id) {
   if (!id) return '';
   // const image_link = `https://drive.usercontent.google.com/download?id=${id}&export=view&authuser=0`;
+  // const image_link = `https://drive.google.com/file/d/${id}/view`;
+  // https://drive.google.com/file/d/1pV0T1vBvAL5ZQn5vaWs0pLY6xBtPV_0O/view
   const image_link = `https://drive.google.com/uc?export=view&id=${id}`;
   console.log('Converted link:', image_link);
   return image_link;
