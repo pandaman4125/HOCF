@@ -1,0 +1,10 @@
+
+.img-fluid {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+img[src*='andrea3.jpg'] {
+    object-fit: contain;
+}

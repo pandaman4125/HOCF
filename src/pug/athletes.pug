@@ -47,7 +47,7 @@ html(lang='en')
                         // h2.accordion-header
                         button.accordion-button.collapsed(type='button', data-bs-toggle='collapse', data-bs-target='#collapseOne', aria-expanded='false', aria-controls='collapseOne')
                             h2.accordion-header.text-center.text-white Lauren Farhat
-                        #collapseOne.accordion-collapse.collapse
+                        #collapseOne.accordion-collapse.collapse(data-bs-parent='#accordionExample')
                             .accordion-body
                                 .row.gx-0.mb-4.mb-lg-5.align-items-center
                                     .col-xl-8.col-lg-5.text-center
@@ -81,7 +81,7 @@ html(lang='en')
                         // h2.accordion-header
                         button.accordion-button.collapsed(type='button', data-bs-toggle='collapse', data-bs-target='#collapseTwo', aria-expanded='false', aria-controls='collapseOne')
                             h2.accordion-header.text-center.text-white Russell Allmandinger
-                        #collapseTwo.accordion-collapse.collapse
+                        #collapseTwo.accordion-collapse.collapse(data-bs-parent='#accordionExample')
                             .accordion-body
                                 // Athlete Two Main
                                 .row.gx-0.mb-4.mb-lg-5.align-items-center
@@ -110,6 +110,43 @@ html(lang='en')
                                                     h4.text-white.display-7 His Story
                                                     p.mb-0.text-white-50.lead
                                                         | Russell Allmandinger, born in 1985, faced immense adversity from infancy due to severe bilateral club feet. Despite undergoing over 30 surgeries and enduring physical challenges, he embraced an active lifestyle, excelling in sports like baseball and powerlifting. At 15, his mother's terminal lung cancer diagnosis shifted his role to that of a caregiver for his family, teaching him the value of resilience from a young age. In 2021, Russell chose to break free from medication dependency and embraced CrossFit as a path to healing. Discovering a new sense of purpose and drive, he began to rebuild his life, becoming a competitive CrossFit athlete. His passion for competition led him to achieve notable rankings in the CrossFit Open, demonstrating his relentless determination and resilience in overcoming challenges.
+                    hr
+                    .accordion-item
+                        // h2.accordion-header
+                        button.accordion-button.collapsed(type='button', data-bs-toggle='collapse', data-bs-target='#collapseThree', aria-expanded='false', aria-controls='collapseOne')
+                            h2.accordion-header.text-center.text-white Andrea Wilson
+                        #collapseThree.accordion-collapse.collapse(data-bs-parent='#accordionExample')
+                            .accordion-body
+                                // Athlete Three Main
+                                .row.gx-0.mb-4.mb-lg-5.align-items-center
+                                    .col-xl-4.col-lg-5
+                                        .text-center.text-lg-left.text-white
+                                            h4.display-5 Andrea
+                                            p.lead.text-white-50.mb-0
+                                                | With a fairly large social media following, Andrea uses her platform to showcase the many things our bodies are capable of doing despite whatever physical limitations one might have. As a mother, she prides herself on her kids never questioning her ability to do anything, and is grateful for her fitness for helping prove this to be true.
+                                    .col-lg-6
+                                        img.img-fluid(src='assets/img/andrea1.jpg', alt='...')
+
+                                // Athelete Three Row
+                                .row.gx-0.justify-content-center
+                                    .col-lg-6
+                                        br
+                                        br
+                                        br
+                                        img.img-fluid(src='assets/img/andrea2.jpg', alt='...')
+                                        br
+                                        br
+                                        br
+                                        br
+                                        img.img-fluid(src='assets/img/andrea3.jpg', alt='...')
+                                    .col-lg-6.order-lg-first
+                                        .bg-black.text-center.h-100.project
+                                            .d-flex.h-100
+                                                .project-text.w-100.my-auto.text-center.text-lg-right
+                                                    h4.text-white.display-7 Her Story
+                                                    p.mb-0.text-white-50.lead
+                                                        | Andrea Wilson, born 1985, was a competitive athlete from a young age. Starting gymnastics at age 4, she worked her way to being a competitive level 10 gymnast and the top high school gymnast in her state. While her intent was to compete for a division 1 college team, during her senior year of high school she broke her back during a fall from the uneven bars and became paralyzed from the waist down. She spent the next decade focused on academics, earning degrees from Princeton University, Johns Hopkins School of Public Health, and Columbia University School of Nursing. However, once she found CrossFit in 2018, she found her competitive drive again and hasn't looked back. She has been named CrossFit's Fittest on Earth for the last 4 years running and is just starting competitive rock climbing, with her sights on representing Team USA throughout the 2025 paraclimbing world cup series.
+                    hr
 
         // Signup
         section#signup.signup-section
